@@ -6,7 +6,6 @@ import Equipes from "../components/Equipes";
 import Stage from "../components/Stage";
 import LogoPartn from "../components/LogosPartn";
 import MerciMarquee from "../components/MerciMarquee";
-import Jerseys from "../components/Jerseys";
 import "../styles/Home.css";
 
 
@@ -139,7 +138,6 @@ const Home = () => {
             </section>
             <Stage />
             <Equipes />
-            <Jerseys />
             <section className="sponsors" id="sponsors">
                 <h2>Partenaires du Tour</h2>
                 <LogoPartn />
