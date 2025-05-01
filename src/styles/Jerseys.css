@@ -1,0 +1,77 @@
+/* Section globale */
+.jerseys-section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 1200px;
+    background-color: var(--blue-bright-color);
+    padding: 60px 20px;
+    border-radius: 0 0 40px 40px;
+    color: var(--dark-blue);
+}
+
+/* Bandeau incurvé clair pour le titre */
+.jerseys-header {
+    background-color: var(--light-blue);
+    border-radius: 0 0 300px 300px;
+    text-align: center;
+    padding: 30px 0 50px;
+    margin-bottom: 40px;
+}
+
+.jerseys-header h2 {
+    margin: 0;
+    font-family: "Krona One", sans-serif;
+    font-size: 1.5rem;
+    color: var(--dark-blue);
+}
+
+/* Grille des vignettes */
+.jerseys-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Carte de chaque maillot */
+.jersey-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.jersey-card:hover {
+    transform: translateY(-5px);
+}
+
+.jersey-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.jersey-label {
+    margin-top: 16px;
+    font-family: "Krona One", sans-serif;
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+}
+
+/* Responsive mobile */
+@media (max-width: 600px) {
+    .jerseys-section {
+        padding: 40px 10px;
+    }
+
+    .jerseys-header {
+        padding: 20px 0 40px;
+    }
+
+    .jerseys-grid {
+        grid-template-columns: 1fr;
+    }
+}

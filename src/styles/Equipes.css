@@ -1,0 +1,179 @@
+.equipes-carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    text-align: center;
+    background-color: var(--blue-bright-color);
+}
+
+.team-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background: var(--blue-color);
+    border-bottom-left-radius: 50% 98%;
+    border-bottom-right-radius: 50% 98%;
+    padding: 64px 32px;
+}
+
+.team-settings {
+    padding: 40px;
+}
+
+.team-slide {
+    padding: 1rem;
+    max-width: fit-content;
+}
+
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: solid 1px aliceblue;
+    margin: 12px;
+}
+
+.team-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    min-height: 450px;
+    width: 250px;
+    height: 520px;
+}
+
+.region-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* passe à la ligne quand nécessaire */
+    justify-content: center;
+    /* centre horizontalement */
+    gap: 0.75rem 1rem;
+    /* espace vertical & horizontal */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.team-name {
+    display: inline-block;      /* pour que padding et border-radius fonctionnent bien */
+    background: var(--blue-color); /* ou la couleur que tu veux */
+    color: var(--dark-color);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;       /* pill */
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+    font-family: var(--primary-font);
+}
+
+.team-name:hover {
+    background-color: var(--yellow-color);
+    transform: scale(1.08);
+}
+
+.card-region-image {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Modal */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.region-and-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.region-image {
+    max-height: 200px;
+    object-fit: contain;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.participant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* ================
+Responsive design
+   ================ */
+
+/* 1) Tablettes & petits écrans (jusqu’à 1024px) */
+@media (max-width: 1024px) {}
+
+/* 2) Mobiles (jusqu’à 768px) */
+@media (max-width: 768px) {
+    .equipes-carousel-container {
+        width: 100%;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+
+    .team-settings {
+        padding:
+            10px;
+    }
+}

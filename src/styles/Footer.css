@@ -1,0 +1,82 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    gap: 20px;
+
+    h1 {
+        width: 80%;
+    }
+
+    .sct-legal {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 20px;
+
+        .sct-jc {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sct-conception {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: end;
+            gap: 100px;
+        }
+    }
+}
+
+.section-passion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 1200px;
+    }
+}
+
+/* ================
+Responsive design
+   ================ */
+
+/* 1) Tablettes & petits écrans (jusqu’à 1024px) */
+@media (max-width: 1024px) {}
+
+/* 2) Mobiles (jusqu’à 768px) */
+@media (max-width: 768px) {
+    .footer {
+        width: 100%;
+        gap: 20px;
+
+        h1 {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        li {
+            font-size: 0.875rem;
+        }
+
+        .sct-legal {
+            gap: 20px;
+
+            .sct-conception {
+                gap: 60px;
+            }
+        }
+    }
+
+    .section-passion {
+        img {
+            width: 100%;
+        }
+    }
+}

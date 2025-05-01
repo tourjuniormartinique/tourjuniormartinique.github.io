@@ -1,0 +1,47 @@
+.logos-partn-section {
+    padding: 48px 16px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.logos-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-item {
+    background-color: var(--white-color);
+    max-width: 120px;
+    padding: 5px;
+    height: 120px;
+    border-radius: 16px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.logo-item:hover {
+    filter: none;
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* ================
+Responsive design
+   ================ */
+
+/* 1) Tablettes & petits écrans (jusqu’à 1024px) */
+@media (max-width: 1024px) {}
+
+/* 2) Mobiles (jusqu’à 768px) */
+@media (max-width: 768px) {
+    .logo-item{
+        width: 80px;
+        height: 80px;
+    }
+}

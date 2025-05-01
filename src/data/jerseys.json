@@ -1,0 +1,42 @@
+[
+    {
+        "id": "pois",
+        "label": "Maillot à Pois",
+        "img": "/images/maillot-pois.png"
+    },
+    {
+        "id": "bleu",
+        "label": "Maillot Bleu",
+        "img": "/images/maillot-bleu.png"
+    },
+    {
+        "id": "blanc",
+        "label": "Maillot Blanc",
+        "img": "/images/maillot-blanc.png"
+    },
+    {
+        "id": "rose",
+        "label": "Maillot Rose",
+        "img": "/images/maillot-rose.png"
+    },
+    {
+        "id": "rouge",
+        "label": "Maillot Rouge",
+        "img": "/images/maillot-rouge.png"
+    },
+    {
+        "id": "gris",
+        "label": "Maillot Gris",
+        "img": "/images/maillot-gris.png"
+    },
+    {
+        "id": "jaune",
+        "label": "Maillot Jaune",
+        "img": "/images/maillot-jaune.png"
+    },
+    {
+        "id": "vert",
+        "label": "Maillot Vert",
+        "img": "/images/maillot-vert.png"
+    }
+]

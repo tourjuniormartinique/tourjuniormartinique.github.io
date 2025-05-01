@@ -1,0 +1,65 @@
+/* Sidebar fixée à droite */
+.sidebar {
+    display: none;
+    position: absolute;
+    right: 0;
+    /* 📌 Place la sidebar à droite */
+    /* 📌 La met sous la navbar */
+    height: calc(100vh - 200px);
+    /* 📌 Hauteur ajustée pour ne pas chevaucher la navbar */
+    width: auto;
+    /* 📌 Largeur de la sidebar */
+    background: #fcfeff;
+    /* 📌 Bleu semi-transparent */
+    color: white;
+    padding: 20px;
+    /* Ombre vers la gauche */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    /* 📌 Permet de scroller si besoin */
+}
+
+/* Images cliquables */
+.sidebar-image {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    /* 📌 Animation fluide */
+    cursor: pointer;
+}
+
+/* 📌 Effet au survol */
+.sidebar-image:hover {
+    filter: brightness(0.7);
+    /* ✨ Augmente la luminosité */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    /* Ombre plus marquée */
+}
+
+/* Liens */
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* 📌 Ajustement du contenu pour le pousser à gauche */
+.content {
+    margin-right: 370px;
+    /* 📌 Décale le contenu pour ne pas être sous la sidebar */
+}
+
+/* 📱 Mode responsive : Réduction de la sidebar sur mobile */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-right: 210px;
+    }
+}

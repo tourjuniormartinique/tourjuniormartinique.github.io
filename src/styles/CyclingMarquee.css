@@ -1,0 +1,39 @@
+/* Conteneur principal */
+.marquee {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: var(--yellow-bright-color);
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-top: solid 4px var(--blue-bright-color);
+    border-bottom: solid 4px var(--blue-bright-color);
+}
+
+/* Animation du texte défilant */
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-scroll 10s linear infinite;
+}
+
+.marquee-content span {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Animation fluide */
+@keyframes marquee-scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

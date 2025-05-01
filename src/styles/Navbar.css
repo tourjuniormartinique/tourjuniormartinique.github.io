@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px;
+    padding: 15px 20px 0 15px;
+}
+
+.logonavb {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    img {
+        width: 120px;
+        height: auto;
+
+    }
+
+    a:hover {
+        background-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    position: fixed;
+    bottom: 12px;
+    gap: 5px;
+    border-radius: 20px;
+    width: calc(100% - 48px);
+    max-width: 600px;
+    padding: 12px;
+    background-color: rgba(214, 243, 255, 0.5);
+    z-index: 998;
+
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: var(--white-color);
+    color: black;
+}
+
+.nav-links a:hover {
+    background-color: var(--yellow-color);
+}
+
+/* ================
+Responsive design
+   ================ */
+
+/* 1) Tablettes & petits écrans (jusqu’à 1024px) */
+@media (max-width: 1024px) {}
+
+/* 2) Mobiles (jusqu’à 768px) */
+@media (max-width: 768px) {
+    .nav-links {
+        width: 300px;
+        max-width: 400px;
+    }
+}

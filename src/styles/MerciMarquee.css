@@ -1,0 +1,52 @@
+.merci-marquee-wrapper {
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 1200px;
+    background: var(--blue-color);
+    padding: 1rem 0;
+    border-top: 2px solid var(--yellow-color);
+    border-bottom: 2px solid var(--yellow-color);
+}
+
+.merci-marquee {
+    display: inline-block;
+    animation: scrollMerci 15s linear infinite;
+}
+
+.merci-item {
+    display: inline-block;
+    margin: 0 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--yellow-color);
+    font-family: 'Krona One', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+/* Animation */
+@keyframes scrollMerci {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ================
+Responsive design
+   ================ */
+
+/* 1) Tablettes & petits écrans (jusqu’à 1024px) */
+@media (max-width: 1024px) {
+}
+
+/* 2) Mobiles (jusqu’à 768px) */
+@media (max-width: 768px) {
+.merci-marquee-wrapper{
+    width: 100%;
+}
+}

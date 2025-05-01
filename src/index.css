@@ -1,3 +1,19 @@
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --blue-color: #bff2ff;
+  --blue-bright-color: #07bceb;
+  --black-color: #09082e;
+  --white-color: #ffffff;
+  --yellow-color: #fdffb6;
+  --yellow-bright-color: #f7fd06;
+  --grey-color: #f6f4f4;
+  --primary-font: "Krona One", sans-serif;
+  --secondary-font: "Helvetica Neue", sans-serif;
+  --border-radius-link: 100px;
+  --padding-link: 5px 10px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +26,107 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  color: var(--black-color);
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  color: var(--black-color);
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0;
+  color: var(--black-color);
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+}
+
+figcaption {
+  margin: 0;
+  color: var(--black-color);
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: var(--secondary-font);
+  color: var(--black-color);
+}
+
+text {
+  color: var(--black-color);
+  font-family: var(--secondary-font);
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
+  border: solid 1px var(--black-color);
+  padding: var(--padding-link);
+  border-radius: 100px;
+}
+
+
+a:hover {
+  transform: scale(1.08);
+  background-color: var(--yellow-color);
+  border-color: transparent;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  font-family: var(--secondary-font);
+  color: var(--black-color);
+  border: solid 1px var(--black-color);
+  border-radius: 16px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.08);
+  background-color: var(--yellow-color);
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  font-family: var(--secondary-font);
 }

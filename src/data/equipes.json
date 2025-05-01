@@ -1,0 +1,222 @@
+[
+    {
+        "region": "France (Hexagone)",
+        "flag": "🇫🇷",
+        "image": "/images/france.png",
+        "teams": [
+            {
+                "name": "Anthony Berny",
+                "participants": [
+                    "Amaury Laigre"
+                ]
+            },
+            {
+                "name": "RTE",
+                "participants": [
+                    "Maxence Detre",
+                    "Pierre Sablonniere",
+                    "Tom Destouches",
+                    "Maxime Autin",
+                    "Tim Andre Cador",
+                    "Simon De Gryse"
+                ]
+            },
+            {
+                "name": "CSM Clamart",
+                "participants": [
+                    "Eyvan Besche",
+                    "Ethan Cassart",
+                    "Rémi Duponq",
+                    "Mohand Hadj Larbi",
+                    "Laouenan Verdier"
+                ]
+            },
+            {
+                "name": "VCRoubaix",
+                "participants": [
+                    "Jean Alex Decouard"
+                ]
+            },
+            {
+                "name": "VVC",
+                "participants": [
+                    "Nolan Chedaleux",
+                    "Augustin Le Galudec",
+                    "Matteo Onnillon",
+                    "Thibault Ortega",
+                    "Gabin Richard"
+                ]
+            }
+        ]
+    },
+    {
+        "region": "Guadeloupe",
+        "flag": "🇬🇵",
+        "image": "/images/guadeloupe.png",
+        "teams": [
+            {
+                "name": "GSC",
+                "participants": [
+                    "Mendy Celigny",
+                    "Keagy Cherif",
+                    "Kylian Fabien Defy Dragin",
+                    "Nyls Relmy Madinska",
+                    "Steeven Stéphane Valmy Dherbois"
+                ]
+            },
+            {
+                "name": "ACVPB",
+                "participants": [
+                    "Aleksandre Chomereau Lamotte",
+                    "Owen Conge",
+                    "Rolann Sheikboudhou"
+                ]
+            },
+            {
+                "name": "ASM",
+                "participants": [
+                    "Kisean George"
+                ]
+            },
+            {
+                "name": "CSCA",
+                "participants": [
+                    "Owen Andreopa",
+                    "Sulyvan Foucan",
+                    "Keylyan Fulbert",
+                    "Kurtys Jouglineu"
+                ]
+            },
+            {
+                "name": "TMCBE",
+                "participants": [
+                    "Heaven Theophile Feler"
+                ]
+            },
+            {
+                "name": "KCU",
+                "participants": [
+                    "Juliani Claxton Van Heyningen",
+                    "Loann Gossec",
+                    "Orlan Gumbs",
+                    "Djamal Sablon"
+                ]
+            },
+            {
+                "name": "VCCCBE",
+                "participants": [
+                    "Malcolm Bourlon"
+                ]
+            },
+            {
+                "name": "USL",
+                "participants": [
+                    "Jefferson Jacquet Cretides"
+                ]
+            },
+            {
+                "name": "VCSa",
+                "participants": [
+                    "Kenny Mathieu Thezenas"
+                ]
+            }
+        ]
+    },
+    {
+        "region": "Martinique",
+        "flag": "🇲🇶",
+        "image": "/images/martinique.png",
+        "teams": [
+            {
+                "name": "TCMGP",
+                "participants": [
+                    "Lois Jean Baptiste Simonne",
+                    "Ethanniel Rene",
+                    "Medhy Rose Elie",
+                    "Samuel Sulter"
+                ]
+            },
+            {
+                "name": "ECD",
+                "participants": [
+                    "Néhémy Jean Baptiste"
+                ]
+            },
+            {
+                "name": "MB",
+                "participants": [
+                    "Jaimy Gros Adenet",
+                    "MathIs Nacitas",
+                    "Alexandre Raphaël",
+                    "Louis Torre"
+                ]
+            },
+            {
+                "name": "TPPML",
+                "participants": [
+                    "Aurélien Cecina"
+                ]
+            },
+            {
+                "name": "UCS",
+                "participants": [
+                    "Mathéo Sivatte",
+                    "Livio Macabre",
+                    "Wylhem Jeanville",
+                    "Noah Loyo"
+                ]
+            },
+            {
+                "name": "VCF",
+                "participants": [
+                    "Ethan Nathan Macabre"
+                ]
+            },
+            {
+                "name": "VCL228",
+                "participants": [
+                    "Rwann Buzare",
+                    "Anael Germé",
+                    "Brice Wesley Lugo",
+                    "Lorenzo Arnaud"
+                ]
+            },
+            {
+                "name": "VCS",
+                "participants": [
+                    "Joakim Reizo",
+                    "Mathieu Varsovie"
+                ]
+            },
+            {
+                "name": "WT",
+                "participants": [
+                    "Loïc Agricole",
+                    "Jonas Hippias",
+                    "Lyvio Vilocy"
+                ]
+            },
+            {
+                "name": "JC231",
+                "participants": [
+                    "Andy Aumis",
+                    "Mathéo Laverne",
+                    "Lucas Vivies"
+                ]
+            }
+        ]
+    },
+    {
+        "region": "Sainte-Lucie",
+        "flag": "🇱🇨",
+        "image": "/images/saintelucie.png",
+        "teams": [
+            {
+                "name": "SLC",
+                "participants": [
+                    "Denver Alphonse"
+                ]
+            }
+        ]
+    }
+]

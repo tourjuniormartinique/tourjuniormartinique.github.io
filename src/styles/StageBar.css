@@ -1,0 +1,104 @@
+/* Barre des étapes */
+.stage-bar {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    /* Fond semi-transparent */
+    backdrop-filter: blur(10px);
+    /* Applique un flou derrière */
+    -webkit-backdrop-filter: blur(10px);
+    /* Compatibilité Safari */
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Bloc calendrier */
+.calendar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.calendar img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.calendar p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #09082e;
+}
+
+/* Étapes */
+.stages {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    overflow-x: auto;
+}
+
+/* Bloc de chaque étape */
+.stage {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--yellow-color);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #000912;
+    transition: transform 0.3s ease-in-out;
+    width: 160px;
+    margin: 5px;
+}
+
+.day {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 14px;
+}
+
+.location {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* ================
+Responsive design
+   ================ */
+
+/* 1) Tablettes & petits écrans (jusqu’à 1024px) */
+@media (max-width: 1024px) {}
+
+/* 2) Mobiles (jusqu’à 768px) */
+@media (max-width: 768px) {
+    .stage-bar {
+        margin-top: 0px;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .stages {
+        flex-direction: column;
+    }
+    .stage{
+        width: 200px;
+        gap: 1px;
+    }
+
+    .calendar{
+        margin-right: 0;
+    }
+}
